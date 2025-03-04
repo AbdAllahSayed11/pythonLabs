@@ -46,7 +46,7 @@ class Office:
         db = connect_to_mysql()
         cursor = db.cursor()
 
-        # Extract car attributes
+        #  car attributes
         car_name = employee.car.name
         car_fuel_rate = employee.car.fuel_rate
         car_velocity = employee.car.velocity
